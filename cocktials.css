@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    background-color: #0B0B0B;
+}
+
+.h1top {
+    color: white;
+    text-align: center;
+    margin: 3%;
+    font-family: Roboto, sans-serif;
+    font-size: 59px;
+    font-weight: 600;
+}
+
+.table1 {
+    width: 946px;
+    height: 402px;
+    background-color: #AA4826;
+    display: flex;
+    margin: 5% auto;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* מרכז את הטקסט באופן אנכי */
+    text-align: end;
+    margin: 4%;
+    margin-bottom: 16%;
+
+}
+
+.h1-container{
+    margin-top: 20%;
+    font-size: 19px;
+    font-family: Roboto, sans-serif;
+font-weight: 600;
+}
+.p-container {
+  
+font-size: 17px;
+font-weight: 400;
+font-family: Roboto, sans-serif;
+margin-bottom: 10%;
+}
+
+.image-container {
+    margin-left: auto; /* שימור התמונה בצד ימין */
+}
+
+.table1 img {
+    width: 290px;
+    margin-right: 20px;
+    margin-top: 20%;
+}
+.black-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0%;
+    cursor: pointer;
+    align-items:flex-end;
+    width: 200px;
+    font-size: 17px;
+margin-left: 64%;
+}
+
+/* 2 */ 
+
+.table2 {
+    width: 946px;
+    height: 402px;
+    background-color: #ACA761;
+    display: flex;
+    margin: 5% auto;
+}
+
+.text-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* מרכז את הטקסט באופן אנכי */
+    text-align: end;
+    margin: 4%;
+    margin-bottom: 16%;
+
+}
+
+.h1-container2{
+    margin-top: 20%;
+    font-size: 19px;
+    font-family: Roboto, sans-serif;
+font-weight: 600;
+}
+.p-container2 {
+  
+font-size: 17px;
+font-weight: 400;
+font-family: Roboto, sans-serif;
+margin-bottom: 10%;
+}
+
+.image-container2 {
+    margin-left: auto; /* שימור התמונה בצד ימין */
+}
+
+.table2 img {
+    width: 290px;
+    margin-right: 20px;
+    margin-top: 20%;
+}
+.black-button2 {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0%;
+    cursor: pointer;
+    align-items:flex-end;
+    width: 200px;
+    font-size: 17px;
+margin-left: 64%;
+}
+/*  3  */ 
+
+
+.table3 {
+    width: 946px;
+    height: 402px;
+    background-color: #6F9506;
+    display: flex;
+    margin: 5% auto;
+}
+
+.text-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* מרכז את הטקסט באופן אנכי */
+    text-align: end;
+    margin: 4%;
+    margin-bottom: 16%;
+
+}
+
+.h1-container3{
+    margin-top: 20%;
+    font-size: 19px;
+    font-family: Roboto, sans-serif;
+font-weight: 600;
+
+}
+.p-container3 {
+  margin-top: 4%;
+font-size: 17px;
+font-weight: 400;
+font-family: Roboto, sans-serif;
+margin-bottom: 10%;
+}
+
+.image-container3 {
+    margin-left: auto; /* שימור התמונה בצד ימין */
+}
+
+.table3 img {
+    width: 290px;
+    margin-right: 20px;
+    margin-top: 20%;
+}
+.black-button3 {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0%;
+    cursor: pointer;
+    align-items:flex-end;
+    width: 200px;
+    font-size: 17px;
+margin-left: 64%;
+}
+
+
+/*  4 */ 
+
+
+.table4 {
+    width: 946px;
+    height: 402px;
+    background-color: #EEB344;
+    display: flex;
+    margin: 5% auto;
+}
+
+.text-container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* מרכז את הטקסט באופן אנכי */
+    text-align: end;
+    margin: 4%;
+    margin-bottom: 16%;
+
+}
+
+.h1-container4{
+    margin-top: 20%;
+    font-size: 19px;
+    font-family: Roboto, sans-serif;
+font-weight: 600;
+
+}
+.p-container4 {
+  margin-top: 4%;
+font-size: 17px;
+font-weight: 400;
+font-family: Roboto, sans-serif;
+margin-bottom: 10%;
+}
+
+.image-container4 {
+    margin-left: auto; /* שימור התמונה בצד ימין */
+}
+
+.table4 img {
+    width: 290px;
+    margin-right: 20px;
+    margin-top: 20%;
+}
+.black-button4 {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0%;
+    cursor: pointer;
+    align-items:flex-end;
+    width: 200px;
+    font-size: 17px;
+margin-left: 64%;
+}

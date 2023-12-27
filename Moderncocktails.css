@@ -1,0 +1,661 @@
+body {
+    margin: 0%;
+    background-color: #0B0B0B;
+}
+.drink-cards-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px; /* נוסיף padding לצדדים הקיצוניים */
+}
+
+.drink-card {
+    font-weight: 300;
+
+    font-size: 17px;
+    text-align: center;
+    flex: 1;
+    max-width: 340px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+
+.drink-card:hover {
+    transform: scale(1.05);
+}
+
+.drink-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.drink-card .card-content {
+    padding: 13px;
+}
+
+.drink-card h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.drink-card p {
+    color: #666;
+}
+
+.Tonicbutton {
+    margin-top: 5.2%;
+}
+
+
+
+.palomabutton
+{
+    background-color: #BA3221;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+  font-size: medium;
+    cursor: pointer;
+   margin-bottom: 0%;
+   margin-top: 6%;
+}
+  .pisco{
+    background-color: #BA3221;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+  font-size: medium;
+    cursor: pointer;
+    margin-right: 0%;
+    margin-top: 0.2%;
+  }
+
+  .aperolbutton{
+    background-color: #BA3221;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+  font-size: medium;
+    cursor: pointer;
+    margin-right: 0%;
+    margin-top: 6%;
+  }
+  .darkandstormybutton{
+    background-color: #BA3221;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+  font-size: medium;
+    cursor: pointer;
+    margin-right: 0%;
+    margin-top: 6%;
+  }
+/* Styles for your other elements... */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.toph1 {
+    color: #AA4826;
+    font-weight: 600;
+    font-family: Roboto, sans-serif;
+    font-size: 59px;
+    text-align: center;
+}
+
+.imgesgrid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0; /* Remove default margin */
+}
+
+
+.img-container {
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    display: block;
+    transition: filter 0.3s ease; /* Add transition for smooth effect */
+}
+
+.caption {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  
+}
+
+.read-more-button {
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: inherit;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    opacity: 0; /* Initially hide the button */
+    transition: opacity 0.3s ease; /* Add opacity transition */
+    border: 2px solid white; /* Add white border */
+}
+
+.img-container:hover img {
+    filter: brightness(70%); /* Darken the image on hover */
+}
+
+.img-container:hover .caption {
+    opacity: 1; /* Show the caption on hover */
+}
+
+.img-container:hover .read-more-button {
+    opacity: 1; /* Show the button on hover */
+}
+
+.read-more-button:hover {
+    border-color: white; /* Change border color on hover */
+    box-shadow: 0 0 10px white; /* Add white box-shadow on button hover */
+}
+
+.h1bodycard {
+    color: aliceblue;
+    margin-top: 0;
+    
+}
+
+body {
+    margin: 0;
+    background-color: #0B0B0B;
+}
+.window {
+    
+    margin-top: 10%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    transition: opacity 0.3s ease; /* Add opacity transition */
+    opacity: 1; /* Set initial opacity to 1 */
+}
+
+
+
+.window img {
+    margin-left: 50px; /* Adjust the spacing between image and text */
+    width: 400px;
+}
+
+.window p {
+    width: 320px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 2%;
+}
+
+.window button{
+    position: absolute;
+    background-color: initial;
+    border: none;
+    font-size: xx-large;
+    margin-bottom:45%;
+    margin-left: 90%;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+.overlay {
+    filter: brightness(100%);
+  }
+  
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+.window2 {
+    
+    margin-top: 10%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    transition: opacity 0.3s ease; /* Add opacity transition */
+    opacity: 1; /* Set initial opacity to 1 */
+}
+
+
+
+.window2 img {
+    margin-left: 50px; /* Adjust the spacing between image and text */
+    width: 400px;
+}
+
+.window2 p {
+    width: 320px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 2%;
+}
+
+.window2 button{
+    position: absolute;
+    background-color: initial;
+    border: none;
+    font-size: xx-large;
+    margin-bottom:45%;
+    margin-left: 90%;
+    color: aliceblue;
+   cursor: pointer;
+
+}
+
+
+.overlay {
+    filter: brightness(100%);
+  }
+  
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+
+
+.window3 {
+    
+    margin-top: 10%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    transition: opacity 0.3s ease; /* Add opacity transition */
+    opacity: 1; /* Set initial opacity to 1 */
+}
+
+
+
+.window3 img {
+    margin-left: 50px; /* Adjust the spacing between image and text */
+    width: 400px;
+}
+
+.window3 p {
+    width: 350px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 2%;
+}
+
+.window3 button{
+    position: absolute;
+    background-color: initial;
+    border: none;
+    font-size: xx-large;
+    margin-bottom:42%;
+    margin-left: 93%;
+    color: aliceblue;
+   cursor: pointer;
+
+}
+
+
+.overlay {
+    filter: brightness(100%);
+  }
+  
+  .hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+
+
+.window4 {
+    
+    margin-top: 10%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    transition: opacity 0.3s ease; /* Add opacity transition */
+    opacity: 1; /* Set initial opacity to 1 */
+}
+
+
+
+.window4 img {
+    margin-left: 50px; /* Adjust the spacing between image and text */
+    width: 400px;
+}
+
+.window4 p {
+    width: 350px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 2%;
+}
+
+.window4 button{
+    position: absolute;
+    background-color: initial;
+    border: none;
+    font-size: xx-large;
+    margin-bottom:42%;
+    margin-left: 90%;
+    color: aliceblue;
+   cursor: pointer;
+
+}
+
+
+.overlay {
+    filter: brightness(100%);
+  }
+  
+  .hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+
+
+
+.window5{
+    
+    margin-top: 45%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    transition: opacity 0.3s ease; /* Add opacity transition */
+    opacity: 1; /* Set initial opacity to 1 */
+}
+
+
+
+.window5 img {
+    margin-left: 50px; /* Adjust the spacing between image and text */
+    width: 400px;
+}
+
+.window5 p {
+    width: 350px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 2%;
+}
+
+.window5 button{
+    position: absolute;
+    background-color: initial;
+    border: none;
+    font-size: xx-large;
+    margin-bottom:42%;
+    margin-left: 90%;
+    color: aliceblue;
+   cursor: pointer;
+
+}
+
+
+.overlay {
+    filter: brightness(100%);
+  }
+  
+  .hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+.window6{
+    
+    margin-top: 45%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    transition: opacity 0.3s ease; /* Add opacity transition */
+    opacity: 1; /* Set initial opacity to 1 */
+}
+
+
+
+.window6 img {
+    margin-left: 50px; /* Adjust the spacing between image and text */
+    width: 400px;
+}
+
+.window6 p {
+    width: 350px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 2%;
+}
+
+.window6 button{
+    position: absolute;
+    background-color: initial;
+    border: none;
+    font-size: xx-large;
+    margin-bottom:42%;
+    margin-left: 90%;
+    color: aliceblue;
+   cursor: pointer;
+
+}
+
+
+.overlay {
+    filter: brightness(100%);
+  }
+  
+  .hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+
+.window7{
+    
+    margin-top: 45%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    transition: opacity 0.3s ease; /* Add opacity transition */
+    opacity: 1; /* Set initial opacity to 1 */
+}
+
+
+
+.window7 img {
+    margin-left: 50px; /* Adjust the spacing between image and text */
+    width: 400px;
+}
+
+.window7 p {
+    width: 350px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 2%;
+}
+
+.window7 button{
+    position: absolute;
+    background-color: initial;
+    border: none;
+    font-size: xx-large;
+    margin-bottom:42%;
+    margin-left: 90%;
+    color: aliceblue;
+   cursor: pointer;
+
+}
+
+
+.overlay {
+    filter: brightness(100%);
+  }
+  
+  .hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.window8{
+    
+    margin-top: 45%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    transition: opacity 0.3s ease; /* Add opacity transition */
+    opacity: 1; /* Set initial opacity to 1 */
+}
+
+
+
+.window8 img {
+    margin-left: 50px; /* Adjust the spacing between image and text */
+    width: 400px;
+}
+
+.window8 p {
+    width: 350px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 2%;
+}
+
+.window8 button{
+    position: absolute;
+    background-color: initial;
+    border: none;
+    font-size: xx-large;
+    margin-bottom:42%;
+    margin-left: 90%;
+    color: aliceblue;
+   cursor: pointer;
+
+}
+
+
+.overlay {
+    filter: brightness(100%);
+  }
+  
+  .hidden {
+    opacity: 0;
+    pointer-events: none;
+}

@@ -1,0 +1,630 @@
+body {
+    margin: 0%;
+    background-color: #0B0B0B;
+}
+
+
+
+.drink-cards-container
+ {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.drink-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    width: 340px;
+    height: 550px;
+    margin: 10px;
+}
+
+.drink-card:hover {
+    transform: scale(1.05);
+}
+
+.drink-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.drink-card-content {
+    padding: 15px;
+}
+
+.drink-card h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.drink-card p {
+    color: #666;
+}
+.drink-card button{
+    
+    background-color: #BA3221;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+    font-size: medium;
+    cursor: pointer;
+    margin-right: 0%;
+ margin-top: 7.3%;
+}
+
+.Daiquiributton{
+    background-color: #BA3221;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+    font-size: medium;
+    cursor: pointer;
+    margin-right: 0%;
+ margin-top: 7.3%;
+}
+
+
+
+.oldbutton{
+
+    background-color: #BA3221;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+    font-size: medium;
+    cursor: pointer;
+    margin-right: 0%;
+ margin-top: 7.3%;
+
+
+
+}
+.Sidecarbutton{
+
+}
+
+
+.toph1 {
+    color: #AA4826;
+    font-weight: 600;
+    font-family: Roboto, sans-serif;
+    font-size: 59px;
+    text-align: center;
+}
+
+
+.imgesgrid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0; /* Remove default margin */
+}
+
+
+.img-container {
+    position: relative;
+    margin: 10px;
+    overflow: hidden;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    display: block;
+    transition: filter 0.3s ease; /* Add transition for smooth effect */
+}
+
+.caption {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  
+}
+
+
+.img-container:hover img {
+    filter: brightness(70%); /* Darken the image on hover */
+}
+
+.img-container:hover .caption {
+    opacity: 1; /* Show the caption on hover */
+}
+
+.img-container:hover .read-more-button {
+    opacity: 1; /* Show the button on hover */
+}
+
+.read-more-button:hover {
+    border-color: white; /* Change border color on hover */
+    box-shadow: 0 0 10px white; /* Add white box-shadow on button hover */
+}
+
+.h1bodycard {
+    color: aliceblue;
+    margin-top: 0;
+    
+}
+
+body {
+    margin: 0;
+    background-color: #0B0B0B;
+}
+.modal {
+    
+    margin-top: 10%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    transition: opacity 0.3s ease; /* Add opacity transition */
+    opacity: 1; /* Set initial opacity to 1 */
+}
+
+
+
+.modal img {
+    margin-left: 50px; /* Adjust the spacing between image and text */
+    width: 400px;
+}
+
+.modal p {
+    width: 320px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 2%;
+}
+
+.modal button{
+    position: absolute;
+    background-color: initial;
+    border: none;
+    font-size: xx-large;
+    margin-bottom:45%;
+    margin-left: 90%;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+.overlay {
+    filter: brightness(100%);
+  }
+  
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+.modal2 {
+    
+    margin-top: 10%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    transition: opacity 0.3s ease; /* Add opacity transition */
+    opacity: 1; /* Set initial opacity to 1 */
+}
+
+
+
+.modal2 img {
+    margin-left: 50px; /* Adjust the spacing between image and text */
+    width: 400px;
+}
+
+.modal2 p {
+    width: 320px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 2%;
+}
+
+.modal2 button{
+    position: absolute;
+    background-color: initial;
+    border: none;
+    font-size: xx-large;
+    margin-bottom:45%;
+    margin-left: 90%;
+    color: aliceblue;
+   cursor: pointer;
+
+}
+
+
+.overlay {
+    filter: brightness(100%);
+  }
+  
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+
+
+.modal3 {
+    
+    margin-top: 10%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    transition: opacity 0.3s ease; /* Add opacity transition */
+    opacity: 1; /* Set initial opacity to 1 */
+}
+
+
+
+.modal3 img {
+    margin-left: 50px; /* Adjust the spacing between image and text */
+    width: 400px;
+}
+
+.modal3 p {
+    width: 350px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 2%;
+}
+
+.modal3 button{
+    position: absolute;
+    background-color: initial;
+    border: none;
+    font-size: xx-large;
+    margin-bottom:42%;
+    margin-left: 93%;
+    color: aliceblue;
+   cursor: pointer;
+
+}
+
+
+.overlay {
+    filter: brightness(100%);
+  }
+  
+  .hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+
+
+.modal4 {
+    
+    margin-top: 10%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    transition: opacity 0.3s ease; /* Add opacity transition */
+    opacity: 1; /* Set initial opacity to 1 */
+}
+
+
+
+.modal4 img {
+    margin-left: 50px; /* Adjust the spacing between image and text */
+    width: 400px;
+}
+
+.modal4 p {
+    width: 350px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 2%;
+}
+
+.modal4 button{
+    position: absolute;
+    background-color: initial;
+    border: none;
+    font-size: xx-large;
+    margin-bottom:42%;
+    margin-left: 90%;
+    color: aliceblue;
+   cursor: pointer;
+
+}
+
+
+.overlay {
+    filter: brightness(100%);
+  }
+  
+  .hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+
+
+
+.modal5{
+    
+    margin-top: 10%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    transition: opacity 0.3s ease; /* Add opacity transition */
+    opacity: 1; /* Set initial opacity to 1 */
+}
+
+
+
+.modal5 img {
+    margin-left: 50px; /* Adjust the spacing between image and text */
+    width: 400px;
+}
+
+.modal5 p {
+    width: 350px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 2%;
+}
+
+.modal5 button{
+    position: absolute;
+    background-color: initial;
+    border: none;
+    font-size: xx-large;
+    margin-bottom:42%;
+    margin-left: 90%;
+    color: aliceblue;
+   cursor: pointer;
+
+}
+
+
+.overlay {
+    filter: brightness(100%);
+  }
+  
+  .hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+.modal6{
+    
+    margin-top: 10%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    transition: opacity 0.3s ease; /* Add opacity transition */
+    opacity: 1; /* Set initial opacity to 1 */
+}
+
+
+
+.modal6 img {
+    margin-left: 50px; /* Adjust the spacing between image and text */
+    width: 400px;
+}
+
+.modal6 p {
+    width: 350px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 2%;
+}
+
+.modal6 button{
+    position: absolute;
+    background-color: initial;
+    border: none;
+    font-size: xx-large;
+    margin-bottom:42%;
+    margin-left: 90%;
+    color: aliceblue;
+   cursor: pointer;
+
+}
+
+
+.overlay {
+    filter: brightness(100%);
+  }
+  
+  .hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+
+.modal7{
+    
+    margin-top: 10%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    transition: opacity 0.3s ease; /* Add opacity transition */
+    opacity: 1; /* Set initial opacity to 1 */
+}
+
+
+
+.modal7 img {
+    margin-left: 50px; /* Adjust the spacing between image and text */
+    width: 400px;
+}
+
+.modal7 p {
+    width: 350px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 2%;
+}
+
+.modal7 button{
+    position: absolute;
+    background-color: initial;
+    border: none;
+    font-size: xx-large;
+    margin-bottom:42%;
+    margin-left: 90%;
+    color: aliceblue;
+   cursor: pointer;
+
+}
+
+
+.overlay {
+    filter: brightness(100%);
+  }
+  
+  .hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal8{
+    
+    margin-top: 10%;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    transition: opacity 0.3s ease; /* Add opacity transition */
+    opacity: 1; /* Set initial opacity to 1 */
+}
+
+
+
+.modal8 img {
+    margin-left: 50px; /* Adjust the spacing between image and text */
+    width: 400px;
+}
+
+.modal8 p {
+    width: 350px;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 2%;
+}
+
+.modal8 button{
+    position: absolute;
+    background-color: initial;
+    border: none;
+    font-size: xx-large;
+    margin-bottom:42%;
+    margin-left: 90%;
+    color: aliceblue;
+   cursor: pointer;
+
+}
+
+
+.overlay {
+    filter: brightness(100%);
+  }
+  
+  .hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+.row3{
+    display: flex;
+    margin-left: 2.9%;
+    position: relative;
+    overflow: hidden;
+    margin-right: 20%;
+}
+.imgrow3{
+    margin-left: 50px;
+}

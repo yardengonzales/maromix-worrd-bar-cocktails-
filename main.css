@@ -1,0 +1,323 @@
+/* קובץ ה-CSS */
+
+body {
+    margin: 0;
+    background-color: #0B0B0B;
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    transition: transform 0.3s ease-in-out;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+header {
+    background-position: 100% 60%;
+    background-size: 79%;
+    background-image: url(/img/barimg.jpeg);
+    color: #fff;
+    text-align: center;
+    padding: 50px 50px;
+}
+
+header img {
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 16px;
+    display: block;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.mainphoto {
+    display: flex;
+    float: right;
+    width: 40%;
+    display: block;
+    margin-right: 30px;
+}
+
+.mainpageh1 {
+    margin: 10px;
+    text-align: right;
+    color: #fff;
+    float: left;
+    font-size: 10px;
+    margin-top: 115px;
+    width: 728px;
+    margin-left: 5%;
+    line-height: 35px;
+}
+
+.h1mian {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.down-arrow {
+    margin-top: 3%;
+    margin-left: 30%;
+    width: 110px;
+    height: 110px;
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+
+.down-arrow:hover {
+    transform: scale(1.1);
+}
+
+.aboutus {
+    background-size: 7% 90%;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-position-x: 10%;
+    background-image: url(/img/AboutPage-Hero-Shape2.png);
+}
+
+.aboutus h1 {
+    color: #fff;
+    margin-top: 7%;
+    text-align: center;
+    font-weight: 300;
+}
+
+.aboutus h2 {
+    color: #fff;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Alef', sans-serif;
+    font-family: 'David Libre', serif;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    text-align: center;
+    margin-left: 25%;
+    font-weight: 300;
+    line-height: 1.2;
+    width: 700px;
+}
+
+.bodydiv {
+    margin-top: 10%;
+    background-color: #e05e5e;
+    display: none;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 0 0 calc(30% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #025464;
+}
+
+.card-img-container {
+    padding: 10px;
+}
+
+.card-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.card-description {
+    font-size: 14px;
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.contact-form {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 20%;
+    color: wheat;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+h4{
+    background-color: #007BFF;
+    width: 100%;
+}
+
+.contact-form h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.backgroundform {
+    margin-top: 0%;
+    width: 500px;
+    margin-left: 29%;
+}
+
+.contact-form {
+    background-position: 0%;
+}
+
+.imgback {
+    background-image: url(/img/background\ bar.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 7%;
+    height: 5%;
+}
+
+.backgroundform h2 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.cards-container {
+    margin-top: 10%  ;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.card p {
+    color: #666;
+}
+
+.aperolbutton{
+    background-color: #BA3221;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+  font-size: medium;
+    cursor: pointer;
+    margin-right: 0%;
+    margin-top: 6%;
+  }
+
+
+  
+.Tonicbutton {
+    background-color: #BA3221;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+  font-size: medium;
+    cursor: pointer;
+    margin-right: 0%;
+    margin-top: 11.3%;
+}
+.prenchbutton{
+    background-color: #BA3221;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+  font-size: medium;
+    cursor: pointer;
+    margin-right: 0%;
+    margin-top: 11.3%;
+}
+.agasbutton{
+    background-color: #BA3221;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+  font-size: medium;
+    cursor: pointer;
+    margin-right: 0%;
+    margin-top: 6.0%;
+}
